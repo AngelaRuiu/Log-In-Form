@@ -1,0 +1,247 @@
+.mdl-card.container {
+    display: table;
+    position: absolute;
+    width: 350px;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Buttons and links style*/
+.mdl-button.mdl-js-button.mdl-button--raised.mdl-button--colored.signUpBtn.styleBtn,
+.mdl-button.mdl-js-button.mdl-button--raised.mdl-button--colored.logInBtn2.styleBtn,
+.mdl-button.mdl-js-button.mdl-button--raised.mdl-button--colored.getPasswordBtn.styleBtn,
+.mdl-button.mdl-js-button.mdl-button--raised.mdl-button--colored.logInButton.styleBtn {
+    background-color: #29bbcf;
+    color: darkslategray;
+    font-weight: bold;
+}
+
+.mdl-button--raised.mdl-button--colored {
+    color: white;
+}
+
+.logInBtn {
+    font-size: 12px;
+    float: right;
+}
+
+.mdl-button.mdl-js-button.mdl-button--raised.mdl-button--colored.logInButton {
+    height: 50px;
+    display: block;
+    bottom: 0;
+    left: 0;
+    margin-top: 35px;
+    width: 350px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signUpBtn,
+.logInBtn {
+    width: 173px;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+}
+
+.signUpBtn2,
+.logInBtn2 {
+    width: 173px;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    margin-top: 30px;
+}
+
+.getPasswordBtn {
+    width: 350px;
+    /* top: 5px; */
+    /* bottom: 25px; */
+    display: block;
+    margin: auto;
+    height: 50px;
+}
+
+/*Forms Styling-Input Label and Icons-*/
+form input {
+    margin-bottom: 20px;
+}
+
+.material-icons.iconsStyle {
+    margin-left: -10px;
+    padding-right: 10px;
+    color: #29bbcf;
+}
+
+.mdl-textfield__input,
+.mdl-textfield__label {
+    font-family: 'tenor sans', sans-serif;
+}
+
+.mdl-card__supporting-text {
+    font-family: 'tenor sans', sans-serif;
+}
+
+.mdl-textfield {
+    width: 250px;
+    align-content: center;
+}
+
+/*Remember me checkbox Styling*/
+.mdl-checkbox__box-outline,
+.mdl-checkbox__ripple-container,
+.mdl-checkbox__focus-helper {
+    margin-left: 28px;
+}
+
+.rememberMeLink {
+    display: inline;
+    padding: 5px;
+    float: left;
+    margin-left: -15px;
+}
+
+.mdl-checkbox__label {
+    padding-left: 40px;
+}
+
+.supportingTextStyle {
+    display: inline;
+    padding: 5px;
+    float: left;
+    margin-left: 8px;
+}
+
+.links {
+    margin: auto;
+    text-align: center;
+    display: inline;
+}
+
+.addPadding {
+    margin-bottom: 15px;
+}
+
+.links2 {
+    margin: auto;
+    text-align: center;
+    display: inline;
+}
+
+/*Links-Buttons*/
+a.mdl-button--primary {
+    cursor: pointer;
+}
+
+a.mdl-button--primary.mdl-button--primary:hover {
+    color: #00bcd4;
+}
+
+a.mdl-button--primary.mdl-button--primary.forgotPswBtn1 {
+    color: gray;
+    float: right;
+    font-size: 14px;
+    margin-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 12px;
+    display: inline;
+    line-height: 18px;
+}
+
+a.mdl-button--primary.mdl-button--primary.forgotPswBtn2,
+a.mdl-button--primary.mdl-button--primary.createAnAccount {
+    color: grey;
+}
+
+a.mdl-button--primary.mdl-button--primary:hover {
+    color: #00bcd4;
+}
+
+/*Password Error Messages Style*/
+.passInfo ul li {
+    font-family: 'tenor sans', sans-serif;
+}
+
+.passInfo h6 {
+    font-family: 'tenor sans', sans-serif;
+}
+
+.passInfo {
+    display: none;
+    width: 350px;
+    margin: auto;
+    bottom: 0;
+}
+
+.passInfo ul {
+    list-style: none;
+}
+
+.passInfo ul li {
+    font-size: 12px;
+}
+
+/*Card Title Style*/
+.mdl-card__title.backStyle {
+    background-color: #42a5f5;
+    color: white;
+}
+
+.registeringSupportingStyle {
+    margin: 8px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.backStyle h4 {
+    margin: auto;
+}
+
+.mdl-card__title-text {
+    margin: auto;
+}
+
+/*Js functions - classes Styling*/
+#forgotPassword {
+    display: none;
+}
+
+#signInAfterReg {
+    display: none;
+}
+
+#signUp {
+    display: block;
+}
+
+.signInForm {
+    display: none;
+}
+
+.invalid {
+    color: red;
+    list-style-image: url("../img/icon.png");
+}
+
+.valid {
+    color: green;
+    list-style-image: url("../img/correct-mark.png");
+}
+
+/*input {
+    border-color: dimgrey;  !important;
+    background-color: transparent;
+}*/
+
+.red {
+    border-color: red;
+}
+
+.initial {
+    border-color: gainsboro;
+}
+
+

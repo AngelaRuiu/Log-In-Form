@@ -1,0 +1,161 @@
+body{
+    color: #505160;!important;
+}
+
+.mdl-card{
+    display: table;
+    position: absolute;
+    /*padding-bottom: 35px;*/
+    width: 350px;
+    bottom: 0;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mdl-textfield{
+    width: 250px;
+    align-content: center;
+}
+.mdl-card__supporting-text{
+    display: inline-block;
+    padding: 5px;
+    float: left;
+    margin-left: 8px;
+}
+.mdl-card__supporting-text.label{
+    margin-left: -30px;
+}
+.material-icons{
+    margin-left: -10px;
+    padding-right: 10px;
+    color: #7fdde9;
+}
+.passInfo{
+    display: none;
+    width: 350px;
+    margin: auto;
+    bottom: 0;
+
+}
+.mdl-button--raised.mdl-button--colored {
+    color: white;
+}
+.signUpBtn,
+.logInBtn{
+    width: 173px;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+}
+.signUpBtn2,
+.logInBtn2{
+    width: 173px;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    margin-top: 30px;
+}
+.logInBtn{
+    font-size: 12px;
+    float: right;
+}
+.link{
+    margin: auto;
+    text-align: center;
+}
+a.createAnAccount,
+a.forgotPswBtn{
+
+}
+.mdl-checkbox__box-outline,
+.mdl-checkbox__ripple-container,
+.mdl-checkbox__focus-helper{
+    margin-left: 28px;
+}
+a.mdl-button--primary.mdl-button--primary{
+    color: gray;
+    float: right;
+    font-size: 14px;
+    margin-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 12px;
+    display: inline;
+    line-height: 18px;
+}
+a.mdl-button--primary.mdl-button--primary:hover{
+    color:  #00bcd4;
+}
+#forgotPassword{
+    display: none;
+}
+.mdl-card__title-text{
+    margin: auto;
+}
+.getPasswordBtn {
+    width: 220px;
+    top:5px;
+    bottom: 25px;
+    display: block;
+    margin:auto;
+}
+.mdl-card__title.logIn2 {
+    width:auto;
+    color: #fff;
+    background: url('../img/thanks.png') 100% no-repeat #46B6AC;
+    height: 150px;
+}
+#signInAfterReg{
+    display:none;
+}
+.mdl-checkbox__label{
+    padding-left: 40px;
+}
+
+a.mdl-button--primary{
+    cursor: pointer;
+}
+
+.links{
+    margin: auto;
+    text-align: center;
+    display:inline;
+}
+.passInfo ul{
+    list-style: none;
+}
+.passInfo ul li{
+    font-size: 12px;
+}
+form input{
+    margin-bottom: 20px;
+}
+.invalid{
+    color: red;
+    list-style-image: url("../img/icon.png");
+}
+
+.valid {
+    color:green;
+    list-style-image: url("../img/correct-mark.png");
+}
+
+input{
+    border-color: dimgrey;!important;
+    background-color: transparent;
+}
+
+.red{
+    border-color: red;
+}
+
+.initial{
+    border-color: dimgray;
+}
+#signUp{
+    display: block;
+}
+.signInForm{
+    display: none;
+}

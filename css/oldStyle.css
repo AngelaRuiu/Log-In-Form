@@ -1,0 +1,78 @@
+
+.container{
+    display: table;
+    position: absolute;
+    padding: 35px 5px;
+    background-color: whitesmoke;
+    width: 350px;
+    bottom: 0;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.passInfo{
+    display: none;
+    width: 350px;
+    margin: auto;
+}
+
+.passInfo ul{
+    list-style: none;
+}
+.passInfo ul li{
+    padding: 5px;
+}
+form input{
+    margin-bottom: 20px;
+}
+
+.labelIcon{
+    padding-right: 10px;
+}
+#signUp{
+    display: block;
+}
+.signInForm{
+    display: none;
+    width: 450px;
+}
+.signInBtn, .signUpBtn{
+    font-weight: bold;
+    color: white;
+    background:rgba(81, 203, 238, 1);
+    width: 50%;
+    display: inline-block;
+}
+.invalid{
+    color: red;
+    list-style-image: url("../img/icon.png");
+}
+
+.valid {
+    color:green;
+    list-style-image: url("../img/correct-mark.png");
+}
+
+input{
+    outline: 0;
+    border-width: 0 0 2px 0;
+    border-color: dimgrey;
+    background-color: transparent;
+}
+
+input:focus{
+    outline: 0;
+    box-shadow: 0 4px 2px -2px rgba(81, 203, 238, 1);
+    padding: 3px;
+    /*margin: 5px 1px 3px 0px;*/
+    border-bottom: 2px solid rgba(81, 203, 238, 1);
+}
+.red{
+    border-color: red;
+}
+
+.initial{
+    border-color: dimgray;
+}

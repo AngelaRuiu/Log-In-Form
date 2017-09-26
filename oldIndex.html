@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+    <script src="js/vanilla.js" type="text/javascript"></script>
+    <script src="js/oldIndex.js" type="text/javascript"></script>
+    <link href="css/oldStyle.css" rel="stylesheet" media="all"/>
+</head>
+<body>
+<div class="container">
+    <div id="signUp" class="tabContent">
+        <form align="center">
+            <h3>Create a New Account</h3>
+            <img class="labelIcon" src="img/user-outline.png">
+            <input type="text" placeholder="Enter UserName" name="username"
+                   required data-value-missing="This field is required!"/> <br>
+            <img class="labelIcon" src="img/envelope.png">
+            <input type="email" id="email" placeholder="Enter Email " name="email"
+                   required data-value-missing="This field is required!" onblur="validateEmail()"/> <br>
+            <img class="labelIcon" src=img/lock.png>
+            <input type="password" id="password" placeholder="Enter Password"
+                   name="password" onkeyup="checkPassword()" onblur="changeInputStyle()"
+                   onfocus="appearErrorMessages()"/> <br>
+            <img class="labelIcon" src="img/lock.png">
+            <input type="password" id="confirm_password" placeholder="Verify Password"
+                   name="password"  onblur="changeInputStyle()"
+                   required data-value-missing="Passwords have to match!"/><br>
+        </form>
+        <button type="submit" class="signUpBtn">Sign Up</button>
+        <button type="button" class="alreadyUserBtn" onclick="showSignIn()">
+           <span>Already a member?</span>
+            <br>
+            Sign in
+        </button>
+        <div class="passInfo" id="errorMessages">
+            <h4 align="center"> Password must meet the following requirements:</h4>
+            <ul>
+                <li id="illegalCharactersError">Must not contain non-alphanumeric characters</li>
+                <li id="lengthError"> Must contain at least 8 characters long</li>
+                <li id="numbersError"> Must contain at least 1 number</li>
+                <li id="upperAndLowerCaseError"> Must contain upper and lower case letters</li>
+                <li id="matchPassError">Password and confirm password have to match</li>
+            </ul>
+        </div>
+        </div>
+        <div class="signInForm" id="signIn">
+            <form align="center">
+                <h3>Welcome Back</h3>
+                <img class="labelIcon" src="img/user-outline.png">
+                <input type="text" placeholder="Enter UserName" name="username"
+                       required data-value-missing="This field is required!"/> <br>
+                <img src="img/padlock.png">
+                <input type="password"  placeholder="Enter Password"
+                       required data-value-missing="This field is required!"/>
+            </form>
+            <button type="submit" class="signInBtn">Sign Up</button>
+            <button type="button" class="createAnAccount" onclick="showSignUp()">
+                Create an Account
+            </button>
+            </div>
+</div>
+</body>
+</html>
